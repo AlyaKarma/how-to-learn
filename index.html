@@ -2,7 +2,6 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
-  <link rel="stylesheet" href="./vendor/normalize.css">
   <link rel="stylesheet" href="./pages/index.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Научиться учиться</title>
@@ -17,7 +16,7 @@
         <a class="header__link" href="#" target="_blank">Узнать &rarr;</a>
       </p>
       <img class="header__main-illustration" src="./images/header-image.png" alt="«Опять двойка» — картина художника Фёдора Решетникова">
-      <div class="header__square-pic"></div>
+      <div class="header__square-pic rotation"></div>
     </header>
     <main class="content">
       <section class="description">
@@ -88,9 +87,9 @@
         <h2 class="section-title">Видео нa TED</h2>
         <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
         <div class="video__iframes">
-          <iframe  class="video__iframe" type="text/html" src="https://www.youtube.com/embed/arj7oStGLkU"
+          <iframe  class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU"
           allowfullscreen></iframe>
-          <iframe class="video__iframe" type="text/html" src="https://www.youtube.com/embed/5MgBikgcWnY"
+          <iframe class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY"
           allowfullscreen></iframe>
         </div>
       </section>
@@ -173,7 +172,7 @@
             Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся
             повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.
           </blockquote>
-          <address class="khan__quote-author">Джордж Лукас</address>
+          <p class="khan__quote-author">Джордж Лукас</p>
           <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
           <div class="khan__book-container">
             <img src="./sprint-2-sources/images_sprint-2/khan-book.jpg" alt="Книга Салман Хан  Весь мир - школа" class="khan__book-pic">
@@ -238,7 +237,7 @@
             </li>
 
           </ul>
-          <div class="kaufman__triangle"></div>
+          <div class="kaufman__triangle rotation"></div>
 
       </section>
 
@@ -247,20 +246,28 @@
         <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
         <ul class="resources__logo-zone">
           <li>
-            <img src="./sprint-2-sources/images_sprint-2/logo/resources-arzamas.svg"
-            alt="Arzamas.academy - проет посвященный истории культуры" class="resources__logo">
+            <a href="https://arzamas.academy/" target="_blank">
+              <img src="./sprint-2-sources/images_sprint-2/logo/resources-arzamas.svg"
+              alt="Arzamas.academy - проет посвященный истории культуры" class="resources__logo">
+            </a>
           </li>
           <li>
-            <img src="./sprint-2-sources/images_sprint-2/logo/resources-n1.svg"
-            alt="N+1 — российское научно-популярное интернет-издание." class="resources__logo">
+            <a href="https://nplus1.ru/" target="_blank">
+              <img src="./sprint-2-sources/images_sprint-2/logo/resources-n1.svg"
+              alt="N+1 — российское научно-популярное интернет-издание." class="resources__logo">
+            </a>
           </li>
           <li>
-            <img src="./sprint-2-sources/images_sprint-2/logo/resources-strelka.svg"
-            alt="Институт медиа, архитектуры и дизайна «Стрелка»" class="resources__logo">
+            <a href="https://strelka.com/ru" target="_blank">
+              <img src="./sprint-2-sources/images_sprint-2/logo/resources-strelka.svg"
+              alt="Институт медиа, архитектуры и дизайна «Стрелка»" class="resources__logo">
+            </a>
           </li>
           <li>
-            <img src="./sprint-2-sources/images_sprint-2/logo/resources-polka.svg"
-            alt="«Полка» — образовательный проект о самых важных произведениях русской литературы" class="resources__logo">
+            <a href="https://polka.academy/" target="_blank">
+              <img src="./sprint-2-sources/images_sprint-2/logo/resources-polka.svg"
+              alt="«Полка» — образовательный проект о самых важных произведениях русской литературы" class="resources__logo">
+            </a>
           </li>
         </ul>
       </section>
