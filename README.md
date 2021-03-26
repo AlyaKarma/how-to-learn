@@ -1,3 +1,5 @@
+[Ссылка на сайт](https://alyakarma.github.io/how-to-learn/)
+
 # How to learn
 Данный проект создан в виде одностраничного сайта.
 
